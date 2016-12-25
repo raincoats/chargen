@@ -11,11 +11,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-inline void write_chargen(void)
-{
-
-}
-
 int main(int argc, char **argv)
 {
 	int i, line, lines, total_chars;
