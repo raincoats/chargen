@@ -64,7 +64,7 @@ int main(int argc, char **argv)
 			if (! write(1, biffer, sizeof(biffer))) {
 				perror("write");
 				return 1;
-			}	
+			}
 		}
 	}
 	else {
@@ -73,7 +73,7 @@ int main(int argc, char **argv)
 				perror("write");
 				return 1;
 			}
-		}		
+		}
 	}
 
 	return 0;
